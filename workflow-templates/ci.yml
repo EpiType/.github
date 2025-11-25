@@ -12,12 +12,37 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Setup
-        run: echo "Configurer l'environnement ici"
-        
+
+      # Exemple pour Node.js - décommentez et adaptez selon votre stack
+      # - name: Setup Node.js
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: '20'
+      #     cache: 'npm'
+      #
+      # - name: Install dependencies
+      #   run: npm ci
+      #
+      # - name: Build
+      #   run: npm run build
+      #
+      # - name: Test
+      #   run: npm test
+
+      # Exemple pour Python - décommentez et adaptez selon votre stack
+      # - name: Setup Python
+      #   uses: actions/setup-python@v5
+      #   with:
+      #     python-version: '3.12'
+      #
+      # - name: Install dependencies
+      #   run: pip install -r requirements.txt
+      #
+      # - name: Test
+      #   run: pytest
+
       - name: Build
-        run: echo "Exécuter le build ici"
-        
+        run: echo "Remplacez par vos commandes de build"
+
       - name: Test
-        run: echo "Exécuter les tests ici"
+        run: echo "Remplacez par vos commandes de test"

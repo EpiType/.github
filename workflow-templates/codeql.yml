@@ -20,8 +20,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: ['javascript']
-        # Langages supportés: 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift'
+        language: ['javascript-typescript']
+        # Langues supportées: 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift'
+        # Ajoutez les langues de votre projet à la liste ci-dessus
 
     steps:
       - name: Checkout repository
