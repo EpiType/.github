@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="https://via.placeholder.com/1000x300/333/fff?text=BANNIERE+DE+VOTRE+ORGANISATION" width="100%" alt="Banner" />
+  <img src="https://i.ibb.co/Y4jBHPcc/Gemini-Generated-Image-72ap6472ap6472ap-2.png" width="100%" alt="Banner" />
   
-  <h1>Bienvenue chez <span style="color:#2E86C1;">[Nom de Votre Organisation]</span> 🌍</h1>
+  <h1>Bienvenue  <span style="color:#2E86C1;">EpiType</span> 🌍</h1>
   
   <p>
     <strong>Innovation • Open Source • Collaboration</strong>
