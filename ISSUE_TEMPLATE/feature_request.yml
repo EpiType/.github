@@ -1,0 +1,67 @@
+---
+name: ✨ Feature Request
+description: Proposer une nouvelle fonctionnalité
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de proposer une nouvelle fonctionnalité !
+        
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problème lié
+      description: Cette fonctionnalité est-elle liée à un problème ? Décrivez-le.
+      placeholder: Je suis toujours frustré quand...
+    validations:
+      required: false
+      
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution proposée
+      description: Une description claire de ce que vous aimeriez voir
+      placeholder: Décrivez votre solution...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considérées
+      description: Avez-vous considéré d'autres solutions ?
+      placeholder: Décrivez les alternatives...
+    validations:
+      required: false
+      
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priorité suggérée
+      options:
+        - Basse
+        - Moyenne
+        - Haute
+        - Critique
+    validations:
+      required: false
+      
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexte supplémentaire
+      description: Ajoutez tout autre contexte ou captures d'écran
+      placeholder: Ajoutez du contexte...
+    validations:
+      required: false
+      
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Vérifications
+      options:
+        - label: J'ai vérifié que cette fonctionnalité n'a pas déjà été proposée
+          required: true

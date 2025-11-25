@@ -1,0 +1,19 @@
+# Ces options de financement apparaîtront sur le bouton "Sponsor" de tous les repositories
+
+# Comptes de sponsorship GitHub
+github: # Exemple: [username] ou [username1, username2]
+
+# Plateforme Patreon
+patreon: # Exemple: epitype
+
+# Plateforme Open Collective
+open_collective: # Exemple: epitype
+
+# Ko-fi
+ko_fi: # Exemple: epitype
+
+# Tidelift
+tidelift: # Exemple: npm/package-name
+
+# Liens personnalisés (jusqu'à 4)
+custom: # Exemple: ['https://epitype.org/donate', 'https://www.paypal.me/epitype']

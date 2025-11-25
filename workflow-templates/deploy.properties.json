@@ -1,0 +1,8 @@
+{
+    "name": "Deploy Workflow",
+    "description": "Workflow de base pour le déploiement",
+    "iconName": "octicon rocket",
+    "categories": [
+        "Deployment"
+    ]
+}

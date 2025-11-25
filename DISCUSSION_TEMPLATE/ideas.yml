@@ -1,0 +1,35 @@
+title: "[Idée]: "
+labels:
+  - idea
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Partagez vos idées avec la communauté !
+        
+  - type: textarea
+    id: idea
+    attributes:
+      label: Votre idée
+      description: Décrivez votre idée
+      placeholder: Mon idée est...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Avantages
+      description: Quels sont les avantages de cette idée ?
+      placeholder: Cette idée permettrait de...
+    validations:
+      required: false
+      
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implémentation suggérée
+      description: Comment voyez-vous l'implémentation ?
+      placeholder: On pourrait implémenter cela en...
+    validations:
+      required: false

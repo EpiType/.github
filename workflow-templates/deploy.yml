@@ -1,0 +1,47 @@
+name: Deploy
+
+on:
+  push:
+    branches: [$default-branch]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    
+    steps:
+      - uses: actions/checkout@v4
+
+      # Configuration de l'environnement - adaptez selon votre stack
+      # - name: Setup Node.js
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     node-version: '20'
+      #     cache: 'npm'
+      #
+      # - name: Install dependencies
+      #   run: npm ci
+
+      - name: Build
+        run: echo "Remplacez par vos commandes de build"
+
+      # Exemples de déploiement - décommentez et adaptez selon votre plateforme
+      # 
+      # GitHub Pages:
+      # - name: Deploy to GitHub Pages
+      #   uses: peaceiris/actions-gh-pages@v4
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./dist
+      #
+      # Vercel:
+      # - name: Deploy to Vercel
+      #   uses: amondnet/vercel-action@v25
+      #   with:
+      #     vercel-token: ${{ secrets.VERCEL_TOKEN }}
+      #     vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+      #     vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+
+      - name: Deploy
+        run: echo "Remplacez par vos commandes de déploiement"
