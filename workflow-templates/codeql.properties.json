@@ -1,0 +1,8 @@
+{
+    "name": "CodeQL Analysis",
+    "description": "Workflow pour l'analyse de sécurité CodeQL",
+    "iconName": "octicon shield",
+    "categories": [
+        "Security"
+    ]
+}

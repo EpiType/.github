@@ -1,0 +1,35 @@
+title: "[Question]: "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Posez votre question ici ! Assurez-vous de fournir autant de contexte que possible.
+        
+  - type: textarea
+    id: question
+    attributes:
+      label: Votre question
+      description: Décrivez votre question de manière claire
+      placeholder: Quelle est votre question ?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexte
+      description: Ajoutez tout contexte pertinent
+      placeholder: Contexte supplémentaire...
+    validations:
+      required: false
+      
+  - type: textarea
+    id: attempts
+    attributes:
+      label: Ce que vous avez essayé
+      description: Décrivez ce que vous avez déjà essayé
+      placeholder: J'ai essayé...
+    validations:
+      required: false

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/orgs/EpiType/discussions
+    about: Pour les questions et discussions générales
+  - name: 📚 Documentation
+    url: https://github.com/EpiType
+    about: Consultez notre documentation

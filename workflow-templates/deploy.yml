@@ -1,0 +1,23 @@
+name: Deploy
+
+on:
+  push:
+    branches: [$default-branch]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup
+        run: echo "Configurer l'environnement de déploiement"
+        
+      - name: Build
+        run: echo "Construire l'application"
+        
+      - name: Deploy
+        run: echo "Déployer l'application"

@@ -1,0 +1,35 @@
+title: "[Annonce]: "
+labels:
+  - announcement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Partagez une annonce avec la communauté.
+        
+  - type: textarea
+    id: announcement
+    attributes:
+      label: Annonce
+      description: Votre annonce
+      placeholder: Nous sommes heureux d'annoncer...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: details
+    attributes:
+      label: Détails
+      description: Plus de détails sur l'annonce
+      placeholder: Détails supplémentaires...
+    validations:
+      required: false
+      
+  - type: textarea
+    id: links
+    attributes:
+      label: Liens utiles
+      description: Liens pertinents
+      placeholder: "- Lien 1\n- Lien 2"
+    validations:
+      required: false

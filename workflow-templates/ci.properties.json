@@ -1,0 +1,8 @@
+{
+    "name": "CI Workflow",
+    "description": "Workflow de base pour l'intégration continue avec build et tests",
+    "iconName": "octicon play",
+    "categories": [
+        "Continuous Integration"
+    ]
+}

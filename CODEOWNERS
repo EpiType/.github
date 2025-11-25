@@ -1,0 +1,16 @@
+# CODEOWNERS - Définit les propriétaires par défaut du code
+# Ces propriétaires seront automatiquement demandés pour review sur les PRs
+
+# Propriétaires par défaut pour tout le repository
+# Décommentez et modifiez selon vos besoins
+# * @EpiType/maintainers
+
+# Exemples de règles spécifiques :
+# Documentation
+# *.md @EpiType/docs-team
+
+# Workflows GitHub Actions
+# .github/workflows/ @EpiType/devops
+
+# Code source
+# /src/ @EpiType/developers

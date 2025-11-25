@@ -1,0 +1,52 @@
+---
+name: 📚 Documentation
+description: Signaler un problème ou proposer une amélioration de la documentation
+title: "[Docs]: "
+labels: ["documentation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Aidez-nous à améliorer notre documentation !
+        
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type de problème
+      options:
+        - Information manquante
+        - Information incorrecte
+        - Information peu claire
+        - Faute de frappe / grammaire
+        - Amélioration suggérée
+        - Autre
+    validations:
+      required: true
+      
+  - type: input
+    id: location
+    attributes:
+      label: Emplacement
+      description: Lien ou chemin vers la documentation concernée
+      placeholder: ex. https://github.com/EpiType/projet/blob/main/README.md
+    validations:
+      required: false
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Décrivez le problème ou l'amélioration suggérée
+      placeholder: Décrivez le problème...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion de correction
+      description: Si vous avez une suggestion de correction, partagez-la
+      placeholder: Suggestion...
+    validations:
+      required: false
